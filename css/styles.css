@@ -6,7 +6,7 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 p {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 hr {
   border: 0.2px solid #2f415b;
@@ -25,14 +25,17 @@ a:hover {
 
 .container {
   display: flex;
-  margin: 100px auto;
+  margin: auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card {
   background-color: #14253d;
   width: 350px;
   height: 600px;
   border-radius: 15px;
-  margin: auto;
 }
 
 .image {
@@ -112,15 +115,14 @@ a:hover {
   border-radius: 50%;
 }
 
-.attribution {
-  visibility: hidden;
-}
 
 /*media*/
 
 @media (min-width: 375px){
-
+  .container {
+    width: 350px;
 }
 @media (max-width: 1440px) {
-
+  .container {
+    width: 350px;
 }
