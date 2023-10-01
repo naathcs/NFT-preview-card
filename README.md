@@ -108,4 +108,3 @@ Also, after the overlay was done, I added anchor in every `:hover` effect so the
 - Website - [Github](https://www.your-site.com)
 - Frontend Mentor - [@naathcs](https://www.frontendmentor.io/profile/naathcs)
 - Instagram - [@naath.cs](https://www.instagram.com/naath.cs)
-- Twitter - [@csnaath](https://www.twitter.com/csnaath)
